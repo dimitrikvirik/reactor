@@ -12,7 +12,9 @@
       ],
       "js": [
         "/js/jquery.js",
-        "/content/main.js"
+        "content/js/loader.js",
+        "content/js/page.js",
+        "/content/js/main.js"
       ]
     }
   ],

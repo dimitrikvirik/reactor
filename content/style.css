@@ -81,3 +81,12 @@ html {
     height: 100%;
     background-color: #000;
 }
+.cumshot{
+    position: fixed;
+    display: none;
+    top: 50px;
+}
+.handjob{
+    position: fixed;
+    bottom: -550px;
+}
