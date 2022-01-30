@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Reactor",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://pornreactor.cc/*"
+      ],
+      "css": [
+        "/content/style.css"
+      ],
+      "js": [
+        "/js/jquery.js",
+        "/content/main.js"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "options_page": "/options/index.html",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ]
+}
