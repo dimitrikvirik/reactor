@@ -89,4 +89,5 @@ html {
 .handjob{
     position: fixed;
     bottom: -550px;
+    display: none;
 }

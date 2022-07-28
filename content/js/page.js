@@ -88,8 +88,11 @@ const page = {
     },
     cumshot() {
         $(".cumshot").show()
+        $(".handjob").show()
+
         setInterval(function (){
             $(".cumshot").hide()
+            $(".handjob").hide()
         }, 3000)
     }
 };
